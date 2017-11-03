@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aydın MEMİŞ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.view').click(function () {
+
+                $('.details').addClass('active')
+            })
+            $('.close').click(function () {
+                $('.details').removeClass('active')
+            })
+        });
+
+
+    </script>
+</head>
+
+<body>
+    <div class="profile">
+        <img src="images/aydinmemis.jpg" alt="aydin memis">
+        <a href="#" class="view">Profili Gör</a>
+        <div class="details">
+            <h2>Aydın MEMiŞ
+                <br>
+                <span>Full Stack Developer</span>
+            </h2>
+            <p>#.Net #Angular #Golang #React Native</p>
+            <h3>Takip Et</h3>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/aydnmms">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/aydinmemis"></a>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <a href="https://github.com/aydinmemis"></a>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </li>
+            </ul>
+            <div class="close">
+                <i class="fa fa-times-circle" aria-hidden="true"></i>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
